@@ -1,12 +1,12 @@
-# TP2 INFO703 Commandeur Nicolas
+### TP2 INFO703 Commandeur Nicolas
 Pour l'instant le TP est à peine commencé de mon côté, j'ai eu une panne de réveil, je suis arrivé juste avant la fin du TP.
 
 
-## TP Compilation : Génération d'arbres abstraits
+# TP Compilation : Génération d'arbres abstraits
 
 L'objectif du TP est d'utiliser les outils JFlex et CUP pour générer des arbres abstraits correspondant à un sous ensemble du langage **λ-ada**.
 
-### Exercice 1 :
+## Exercice 1 :
 
 Utiliser JFlex et CUP pour générer l'arbre abstrait correspondant à l'analyse d'expressions arithmétiques sur les nombres entiers.
 
@@ -37,7 +37,7 @@ pourra donner, par exemple, l'arbre suivant :
 Une fois l'arbre généré, récupérez le dans le programme pricipal et affichez le, par exemple sous la forme d'une expression préfixée parenthésée :
 `(; (LET prixTtc (/ (* prixHt 119) 100)) (+ prixTtc 100))`
 
-### Exercice 2 :
+## Exercice 2 :
 
 Compléter la grammaire précédente en y ajoutant les opérateurs booléens, ceux de comparaison, la boucle et la conditionnelle, afin d'obtenir un sous-ensemble du langage **λ-ada** un peu plus complet.
 
